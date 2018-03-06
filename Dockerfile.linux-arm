@@ -1,5 +1,6 @@
 # Build image
-FROM golang:1.9-alpine as builder
+#FROM golang:1.9-alpine as builder
+FROM arm32v6/golang:1.9-alpine as builder
 MAINTAINER Raymond Mouthaan <raymondmmouthaan@gmail.com>
 
 ARG CADDY_VERSION="0.10.10"
