@@ -5,7 +5,7 @@ COPY tmp/qemu-arm-static /usr/bin/qemu-arm-static
 
 MAINTAINER Raymond Mouthaan <raymondmmouthaan@gmail.com>
 
-ARG CADDY_VERSION="0.10.10"
+ARG CADDY_VERSION="0.10.11"
 
 RUN apk update
 RUN apk add --no-cache git
